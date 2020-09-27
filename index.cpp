@@ -4,10 +4,11 @@ using namespace std;
 
 int main()
 {
-
+    // PAIRS
     pair<int, int> p = {1, 3};
     //cout << p.first << p.second;
 
+    //VECTORS
     vector<int> v(5, 20);
 
     v.push_back(30);
@@ -237,21 +238,19 @@ int main()
 
     // SET
 
-    set<int> st;
+    set<int> sta;
 
-    st.insert(1);
-    st.insert(20);
-    st.insert(333);
-    st.insert(456);
-    st.insert(15);
+    sta.insert(1);
+    sta.insert(20);
+    sta.insert(333);
+    sta.insert(456);
+    sta.insert(15);
 
-    auto it = st.find(15);
-    auto it2 = st.find(10);
+    auto it = sta.find(15);
+    auto it2 = sta.find(10);
     //if value is not there in set it will point to st.end()
 
-    st.erase(it, it2);
-
-    for (auto x : st)
+    for (auto x : sta)
     {
         cout << x << "\n";
     }
@@ -349,9 +348,4 @@ int main()
         cout << itr->first
              << itr->second.first << itr->second.second << '\n';
     }
-
-    auto it = mp.find(2);
-
-    cout << it->second;
-
 }
