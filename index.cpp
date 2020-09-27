@@ -354,5 +354,4 @@ int main()
 
     cout << it->second;
 
-    //Problem is basically checking if number is even or odd.
 }
