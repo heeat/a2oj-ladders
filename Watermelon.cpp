@@ -11,7 +11,7 @@ int main()
 
     cin >> num;
 
-    if (num & 1) 
+    if ((num & 1) || num == 2)
         cout << "NO";
     else
         cout << "YES";
