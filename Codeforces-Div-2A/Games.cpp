@@ -39,7 +39,6 @@ int main()
 
     for (auto x : vceven)
     {
-
         // logic tightens if multiple occurrences of a value are present so we need to capture count not just find if common value is there or not
         unsigned val = count(vcodd.begin(), vcodd.end(), x);
 
