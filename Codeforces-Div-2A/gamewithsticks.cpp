@@ -25,7 +25,7 @@ int main()
 
 // alternate solution
 // calculate minimum of both inputs and check if it is odd or even
-// if it is odd answer is Akshat because he has first move and his next move is 3, 5 ,7 ... odd numbers.
+// if it is odd, answer is Akshat. Because he has first move and his next move is 3, 5 ,7 ... odd numbers.
 
 /*
 
